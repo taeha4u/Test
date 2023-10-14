@@ -1,0 +1,291 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #80170e;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul li a {
+  color: white;
+  font-size: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 35px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+li a:hover {
+  color: #d83428;
+}
+
+.firstnavbar {
+  background-color: #d83428;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secondnavbar {
+  background-color: #fff;
+}
+
+i {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+}
+
+.icon-support {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: white;
+}
+
+.search {
+  display: flex;
+  background: #fff;
+  padding: 1px;
+  border-radius: 20px;
+}
+
+.search input {
+  background: #d83428;
+  border: none;
+  outline: none;
+  border-radius: 20px 0 0 20px;
+  padding: 14px;
+  color: #fff;
+  width: 500px;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.search-btn svg {
+  width: 14px;
+  height: 14px;
+  fill: #d83428;
+  cursor: pointer;
+}
+
+.search-btn {
+  margin: 14px;
+}
+
+.main-img {
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  top: 80px;
+  left: 280px;
+}
+
+.banner-slogan1 {
+  font-size: 15px;
+}
+
+.banner-title {
+  width: 60%;
+  font-size: 40px;
+}
+
+.banner-slogan2 {
+  font-size: 25px;
+}
+
+.button {
+  background-color: #d83428;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 30px 0px;
+}
+
+.section {
+  padding: 0px 80px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid #b1b1b1;
+  padding: 10px 15px;
+}
+
+.product-img {
+  max-width: 220px;
+  position: relative;
+}
+
+.product-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.product-img div {
+  padding: 8px 12px;
+  background-color: #d83428;
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.product-price {
+  color: #d83428;
+  font-size: 20px;
+  padding: 13px 0px;
+}
+
+.product-amount {
+  display: flex;
+  border: 1px solid #000;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.product-add button {
+  background-color: #000;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 13px 0px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.button2 {
+  background-color: #d83428;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  display: block;
+  margin: 40px 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.best-deals {
+  padding: 40px 0px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.StartYourCart {
+  margin-bottom: 30px;
+}
+
+.section-narrow {
+  padding: 0px 200px;
+  margin: 50px 0px;
+}
+
+.last {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d83428;
+}
+
+.last div a p {
+  padding: 10px 0px;
+  color: #fff;
+}
+
+.title {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.last-content a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.last-content {
+  margin: 40px 0px;
+  color: #fff;
+  padding: 50px 60px;
+}
+
+.last-content p {
+  padding: 10px 0px;
+}
+
+.go-up {
+  padding: 10px;
+  background: #d83428;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 1000;
+  bottom: 20px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.go-up i {
+  color: white;
+}
